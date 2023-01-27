@@ -34,3 +34,8 @@
   font-size: 25px;
   font-weight: 100;
 }
+
+.social-icon {
+  margin: 0 20px 0 20px;
+  max-width: 30px;
+}

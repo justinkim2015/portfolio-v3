@@ -1,5 +1,6 @@
 import './home.css'
-import sunrise from './sunrise-desat.png'
+import github from './logos/github.png'
+import linkedin from './logos/linkedin.png'
 
 const Home = () => {
   return (
@@ -8,6 +9,11 @@ const Home = () => {
         <h2 className='hello'>Hi there,</h2>
         <p className='name'>I'm Justin Kim.</p>
         <p className='my-desc'>Full-stack web developer</p>
+        <div className='icon-bar'>
+          <a href="http://www.github.com" className='icon-holder'><img src={github} className='social-icon'></img></a>
+
+          <a href="http://www.linkedin.com" className='icon-holder'><img src={linkedin} class='social-icon'></img></a>
+        </div>
       </div>
     </section>
   )
