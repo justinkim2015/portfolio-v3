@@ -1,0 +1,22 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.hamburger-button {
+  max-width: 30px;
+  margin: 10px 10px 0 0;
+}
+
+.logo {
+  max-width: 40px;
+  margin: 10px 0 0 10px;
+}

@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "monteserrat";
+  src: url('./Montserrat-Regular.ttf');
+}
+
+body {
+  font-family: "monteserrat";
+  background-color: grey;
+  height: 200vh;
+}
