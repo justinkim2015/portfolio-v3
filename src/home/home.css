@@ -1,0 +1,36 @@
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('./sunrise-dark.png');
+  background-size: cover;
+}
+
+#banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.hello, .name, .my-desc {
+  color: #FFFFFF;
+}
+
+.hello {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.name {
+  font-size: 45px;
+  font-weight: 100;
+}
+
+.my-desc {
+  font-size: 25px;
+  font-weight: 100;
+}
