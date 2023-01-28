@@ -5,6 +5,14 @@
   align-items: center;
 }
 
+.skills-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
 .skills-title {
   font-size: 30px;
   font-weight: 1000;
@@ -27,7 +35,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 30px;
+  margin: 0 0 60px;
   width: 80%;
 }
 
@@ -42,4 +50,20 @@
   margin: 5px 0;
   text-align: center;
   font-family: 'open sans';
+}
+
+.circle {
+  margin: 0 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  height: 80px;
+  width: 80px;
+  border-radius: 1000px;
+  opacity: 40%;
+}
+
+.skill-icon {
+  max-width: 50px;
 }
