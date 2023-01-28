@@ -25,3 +25,10 @@
   border: 2px black solid;
   border-radius: 5px;
 }
+
+.underbar {
+  width: 80px;
+  height: 2px;
+  margin: 25px 0;
+  background-color: #BCBCBC;
+}

@@ -10,25 +10,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 60px;
+  margin: 80px 0 60px 0;
 }
 
 .skills-title {
   font-size: 30px;
   font-weight: 1000;
-  margin: 0 0 8px;
+  margin: 0 0 12px;
 }
 
 .skills-subtitle {
   font-family: 'open sans';
   color: #797979;
-}
-
-.underbar {
-  width: 80px;
-  height: 2px;
-  margin: 25px 0;
-  background-color: #BCBCBC;
 }
 
 .frontend, .backend, .dev {
@@ -61,7 +54,7 @@
   height: 80px;
   width: 80px;
   border-radius: 1000px;
-  opacity: 40%;
+  opacity: 45%;
 }
 
 .skill-icon {
