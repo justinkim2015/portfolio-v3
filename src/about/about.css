@@ -1,0 +1,30 @@
+#about {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+}
+
+.about-content {
+  padding: 0 15px;
+}
+
+.about-title {
+  font-size: 34px;
+  font-weight: 1000;
+  margin: 0 0 8px;
+}
+
+.about-subtitle {
+  font-size: 16px;
+  color: #999999;
+  margin: 0 0 30px;
+}
+
+.about-text {
+  color: #797979;
+  line-height: 1.6;
+  text-align: justify;
+  font-family: 'open sans';
+  margin: 0 0 16px;
+  padding: 0 0 30px;
+}

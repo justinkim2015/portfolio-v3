@@ -1,8 +1,13 @@
 @font-face {
-  font-family: "monteserrat";
-  src: url('./Montserrat-Regular.ttf');
+  font-family: 'monteserrat';
+  src: url(../fonts/Montserrat-Regular.ttf);
 }
 
-body {
+@font-face {
+  font-family: 'open sans';
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+#content {
   font-family: "monteserrat";
 }
