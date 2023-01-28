@@ -5,6 +5,8 @@
 }
 
 .about-content {
+  display: flex;
+  flex-direction: column;
   padding: 0 15px;
 }
 
@@ -27,4 +29,9 @@
   font-family: 'open sans';
   margin: 0 0 16px;
   padding: 0 0 30px;
+}
+
+.resume {
+  font-size: 20px;
+  padding: 10px 36px;
 }
