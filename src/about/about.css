@@ -7,7 +7,7 @@
 .about-content {
   display: flex;
   flex-direction: column;
-  padding: 0 15px;
+  padding: 0 15px 30px 15px;
 }
 
 .about-title {
@@ -32,6 +32,10 @@
 }
 
 .resume {
+  margin: 8px 0;
   font-size: 20px;
   padding: 10px 36px;
+}
+.justin-image {
+  padding: 30px 0;
 }

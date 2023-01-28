@@ -1,4 +1,5 @@
 import './about.css'
+import me from './me-nobackground.png'
 
 const About = () => {
   return (
@@ -11,6 +12,7 @@ const About = () => {
         </p>
         <button className='blue-button resume'>Download Resume</button>
         <button className='white-button resume'>履歴書</button>
+        <img src={me} className='justin-image'></img>
       </div>
     </section>
   )
