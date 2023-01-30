@@ -3,6 +3,7 @@ import Home from './home/Home.js'
 import About from './about/About.js'
 import Skills from './skills/Skills.js'
 import Projects from './projects/Projects.js'
+import Contact from './contact/Contact.js'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <About />
         <Skills />
         <Projects />
+        <Contact />
       </div>
     </div>
   );
