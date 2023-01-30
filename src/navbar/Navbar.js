@@ -1,11 +1,13 @@
 import './navbar.css'
 import hamburger from './black-hamburger.png'
 import jk from './jk.png'
+import { motion } from "framer-motion"
 
 const Navbar = () => {
   const toggle = () => {
-    let hamburger = document.querySelector('.hamburger-menu')
-    hamburger.classList.toggle('hidden')
+    let hamburger = document.querySelector('#menu')
+    hamburger.classList.toggle('hamburger-menu-active')    
+    hamburger.classList.toggle('hamburger-menu-inactive')    
   }
 
   return (
@@ -13,7 +15,7 @@ const Navbar = () => {
       <img src={jk} className='logo'></img>
       <img src={hamburger} className='hamburger-button' onClick={toggle}></img>
 
-      <ul className='hamburger-menu hidden'>
+      <ul id='menu' className='hamburger-menu-inactive hamburger-menu'>
         <li className='link'>About</li>
         <li className='link'> Skills</li>
         <li className='link'>Projects</li>

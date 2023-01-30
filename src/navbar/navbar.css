@@ -10,19 +10,28 @@
 }
 
 .hamburger-menu {
+  overflow: hidden;
   position: fixed;
   width: 100%;
   top: 50px;
   background-color: #FFFFFF;
 }
 
-.hidden {
-  display: none;
+.hamburger-menu-inactive {
+  height: 0px;
+  transition: all 0.3s ease-in-out;
 }
+
+.hamburger-menu-active {
+  height: 120px;
+  transition: all 0.3s ease-in-out;
+}
+
 
 .hamburger-button {
   max-width: 30px;
   margin: 10px;
+  z-index: 1002;
 }
 
 .logo {
