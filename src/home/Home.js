@@ -1,6 +1,6 @@
 import './home.css'
-import github from './logos/github.png'
-import linkedin from './logos/linkedin.png'
+import github from '../logos/github-white.png'
+import linkedin from '../logos/linkedin-white.png'
 
 const Home = () => {
   return (

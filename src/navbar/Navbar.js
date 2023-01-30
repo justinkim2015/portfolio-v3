@@ -1,5 +1,5 @@
 import './navbar.css'
-import hamburger from './white-hamburger.png'
+import hamburger from './black-hamburger.png'
 import jk from './jk.png'
 
 const Navbar = () => {
@@ -9,7 +9,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav id='navbar'>
+    <nav id='navbar' className=''>
       <img src={jk} className='logo'></img>
       <img src={hamburger} className='hamburger-button' onClick={toggle}></img>
 

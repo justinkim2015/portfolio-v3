@@ -6,7 +6,7 @@ import tool from './tool.png'
 const Skills = () => {
   return (
     <section id='skills'>
-      <div class="skills-header">
+      <div className="skills-header">
         <h2 className='skills-title'>Skills</h2>
         <h6 className='skills-subtitle'>My core competencies and things I do.</h6>
         <div className='underbar'></div>

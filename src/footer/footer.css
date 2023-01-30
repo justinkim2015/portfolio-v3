@@ -1,0 +1,24 @@
+#footer {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #040c2c;
+  padding: 60px;
+  gap: 14px;
+}
+
+.footer-logo {
+  max-width: 70px;
+}
+
+.made-by {
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.inspired-by {
+  font-size: 10px;
+  color: #999999;
+}

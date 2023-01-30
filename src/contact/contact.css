@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  margin: 0 20px;
 }
 
 .contact-title {
@@ -14,6 +14,14 @@
 }
 
 .contact-details {
+  display: flex;
+  align-items: center;
+  gap: 20px;
   color: #797979;
   padding-top: 15px;
+}
+
+.contact-icon {
+  max-width: 16px;
+  opacity: 60%;
 }

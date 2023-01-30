@@ -5,6 +5,8 @@
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: #FFFFFF;
+  z-index: 1001;
 }
 
 .hamburger-menu {
@@ -20,12 +22,12 @@
 
 .hamburger-button {
   max-width: 30px;
-  margin: 10px 10px 0 0;
+  margin: 10px;
 }
 
 .logo {
   max-width: 40px;
-  margin: 10px 0 0 10px;
+  margin: 10px;
 }
 
 .link {
