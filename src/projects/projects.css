@@ -29,12 +29,31 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 90%;
-  padding: 15px;
-  background-color: #fdfdfd;
+  max-width: 75%;
+  padding: 30px;
+  border: #ebebeb 1px solid;
+  box-shadow: 1px 1px 10px #ebebeb;
+}
+
+.project-text {
+  padding: 0 20px;
+}
+
+.project-name {
+  font-size: 18px;
+  margin-bottom: 8px;
+  padding: 20px 0 8px;
+  font-weight: 600;
+}
+
+.project-desc {
+  font-size: 12px;
+  font-family: 'open sans';
+  color: #797979;
+  line-height: 1.6;
+  text-align: justify;
 }
 
 .project-image {
   max-width: 90%;
-  box-shadow: 2px 2px 10px rgb(201, 201, 201);
 }
