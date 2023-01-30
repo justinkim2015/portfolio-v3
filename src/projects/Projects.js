@@ -14,20 +14,28 @@ const Projects = () => {
       </div>
 
       <div className='project'>
+        <h3>Karaoke Song Organizer</h3>
         <img src={karaoke} className='project-image'></img>
       </div>
+
+      <div className='underbar'></div>
 
       <div className='project'>
         <img src={railsbook} className='project-image'></img>
       </div>
 
+      <div className='underbar'></div>
+
       <div className='project'>
         <img src={chess} className='project-image'></img>
       </div>
 
+      <div className='underbar'></div>
+
       <div className='project'>
         <img src={weather} className='project-image'></img>
       </div>
+
     </section>
   )
 }
