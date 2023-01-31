@@ -12,15 +12,26 @@ const Navbar = () => {
 
   return (
     <nav id='navbar'>
-      <img src={jk} className='logo'></img>
-      <img src={hamburger} className='hamburger-button' onClick={toggle}></img>
+      <div className='mobile'>
+        <img src={jk} className='logo'></img>
+        <img src={hamburger} className='hamburger-button' onClick={toggle}></img>
+        <ul id='menu' className='hamburger-menu-inactive hamburger-menu'>
+          <li className='link'>About</li>
+          <li className='link'> Skills</li>
+          <li className='link'>Projects</li>
+          <li className='link'>Contact</li>
+        </ul>
+      </div>
 
-      <ul id='menu' className='hamburger-menu-inactive hamburger-menu'>
-        <li className='link'>About</li>
-        <li className='link'> Skills</li>
-        <li className='link'>Projects</li>
-        <li className='link'>Contact</li>
-      </ul>
+      <div className='desktop'>
+        <ul id='menu' className='desktop-links'>
+          <img src={jk} className='logo'></img>
+          <li className='link'>About</li>
+          <li className='link'> Skills</li>
+          <li className='link'>Projects</li>
+          <li className='link'>Contact</li>
+        </ul>
+      </div>
     </nav>
   )
 }
