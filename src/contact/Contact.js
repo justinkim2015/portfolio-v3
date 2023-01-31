@@ -51,8 +51,8 @@ const Contact = () => {
       ref={ref}
       variants={contactVariant}
       transition={{ duration: 0.5}}
-      initial="hiddenLeft"
-      animate={control}         
+      initial="hiddenRight"
+      animate={control}
       >
         <ContactForm />
       </motion.div>

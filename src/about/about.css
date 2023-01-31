@@ -40,3 +40,19 @@
 .justin-image {
   padding: 50px 0 30px 0;
 }
+
+
+/* Tablet */
+@media (min-width: 480px) {
+
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+
+}
+
+/* Desktop */
+@media (min-width: 1440px) {
+
+}

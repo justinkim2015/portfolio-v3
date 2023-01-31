@@ -11,7 +11,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav id='navbar' className=''>
+    <nav id='navbar'>
       <img src={jk} className='logo'></img>
       <img src={hamburger} className='hamburger-button' onClick={toggle}></img>
 

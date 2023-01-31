@@ -42,3 +42,24 @@
 .link {
   margin: 10px 0 10px 10px;
 }
+
+/* Tablet */
+@media (min-width: 480px) {
+  .hamburger-button {
+    max-width: 40px;
+  }
+
+  .logo {
+    max-width: 60px;
+  }
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+
+}
+
+/* Desktop */
+@media (min-width: 1440px) {
+
+}

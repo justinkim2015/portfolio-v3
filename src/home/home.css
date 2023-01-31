@@ -45,3 +45,19 @@
 .social-icon:hover {
   opacity: 100%;
 }
+
+
+/* Tablet */
+@media (min-width: 480px) {
+
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+
+}
+
+/* Desktop */
+@media (min-width: 1440px) {
+
+}
