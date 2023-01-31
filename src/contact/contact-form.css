@@ -21,3 +21,19 @@
   font-size: 16px;
   padding: 14px 38px 14px 42px;
 }
+
+/* Tablet */
+@media (min-width: 480px) {
+  .submit {
+  }
+  }
+
+/* Laptop */
+@media (min-width: 1024px) {
+
+}
+
+/* Desktop */
+@media (min-width: 1440px) {
+
+}
