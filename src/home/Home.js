@@ -1,17 +1,14 @@
 import './home.css'
 import github from '../logos/github-white.png'
 import linkedin from '../logos/linkedin-white.png'
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-import { useEffect } from "react";
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
     <section id='home'>
       <div id='banner-content'>
         <motion.div
-        animate={{opacity: 1, y: 0}}
-        transition={{duration: 0.6}}
+        animate={{opacity: 1, y: 0, transition: {duration: 0.6}}}
         initial={{opacity: 0, y: 10}} 
         className='banner-text'
         >

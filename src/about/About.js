@@ -1,10 +1,33 @@
 import './about.css'
 import me from './me-nobackground.png'
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
 
 const About = () => {
+  const control = useAnimation()
+  const [ref, inView] = useInView()
+
+  const boxVariant = {
+    visible: { opacity: 1, y: 0, transition:{duration: 0.6} },
+    hidden: { opacity: 0, y: 20 },
+  }  
+
+  useEffect(() => {
+    if(inView) {
+      control.start("visible")
+    }
+  }, [control, inView])
+
   return (
     <section id='about'>
-      <div className='about-content'>
+      <motion.div 
+      ref={ref}
+      variants={boxVariant}
+      initial="hidden"
+      animate={control}   
+      className='about-content'
+      >
         <h2 className='about-title'>About me</h2>
         <h6 className='about-subtitle'>Full-stack Web Developer</h6>
         <p className='about-text'>
@@ -13,7 +36,7 @@ const About = () => {
         <button className='blue-button resume'>Download Resume</button>
         <button className='white-button resume'>履歴書</button>
         <img src={me} className='justin-image'></img>
-      </div>
+      </motion.div>
     </section>
   )
 }
