@@ -8,7 +8,7 @@ const About = () => {
   const control = useAnimation()
   const [ref, inView] = useInView()
 
-  const boxVariant = {
+  const aboutVariant = {
     visible: { opacity: 1, y: 0, transition:{duration: 0.6} },
     hidden: { opacity: 0, y: 20 },
   }  
@@ -23,7 +23,7 @@ const About = () => {
     <section id='about'>
       <motion.div 
       ref={ref}
-      variants={boxVariant}
+      variants={aboutVariant}
       initial="hidden"
       animate={control}   
       className='about-content'
