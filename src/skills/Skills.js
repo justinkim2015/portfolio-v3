@@ -12,7 +12,8 @@ const Skills = () => {
 
   const skillsVariant = {
     visible: { opacity: 1, x: 0 },
-    hidden: { opacity: 0, x: 200 },
+    hiddenLeft: { opacity: 0, x: 100 },
+    hiddenRight: { opacity: 0, x: -80},
     hiddenFade: { opacity: 0, x: 0},
   }  
 
@@ -34,7 +35,7 @@ const Skills = () => {
       ref={ref}
       variants={skillsVariant}
       transition={{ duration: 0.4}}
-      initial="hidden"
+      initial="hiddenLeft"
       animate={control}         
       className='frontend'>
         <div className='circle'><img src={front} className='skill-icon'></img></div>
@@ -51,7 +52,7 @@ const Skills = () => {
       ref={ref}
       variants={skillsVariant}
       transition={{ duration: 0.4, delay: 0.1}}
-      initial="hidden"
+      initial="hiddenRight"
       animate={control}         
       className='backend'>
         <div className='circle'><img src={back} className='skill-icon'></img></div>
@@ -69,7 +70,7 @@ const Skills = () => {
       ref={ref}
       variants={skillsVariant}
       transition={{ duration: 0.4, delay: 0.2}}
-      initial="hidden"
+      initial="hiddenLeft"
       animate={control}         
       className='dev'>
         <div className='circle'><img src={tool} className='skill-icon'></img></div>

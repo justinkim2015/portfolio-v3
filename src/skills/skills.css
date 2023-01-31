@@ -60,3 +60,10 @@
 .skill-icon {
   max-width: 50px;
 }
+
+.animation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
