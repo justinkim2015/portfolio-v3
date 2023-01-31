@@ -8,7 +8,7 @@
   background-size: cover;
 }
 
-#banner-content {
+#banner-content, .banner-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
