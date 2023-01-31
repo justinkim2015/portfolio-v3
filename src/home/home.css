@@ -38,4 +38,10 @@
 .social-icon {
   margin: 0 20px 0 20px;
   max-width: 30px;
+  opacity: 70%;
+
+}
+
+.social-icon:hover {
+  opacity: 100%;
 }
