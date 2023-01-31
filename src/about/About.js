@@ -33,8 +33,10 @@ const About = () => {
         <p className='about-text'>
           Full-stack developer living in Tokyo who likes to make stuff with his computer. Currently, I am focused on building applications using Ruby on Rails as a back-end and ReactJS for the front. I'm fluent in English and I can speak business level Japanese. Please check out some of my projects and get in touch!
         </p>
-        <button className='blue-button resume'>Download Resume</button>
-        <button className='white-button resume'>履歴書</button>
+        <div class="button-tray">
+          <button className='blue-button resume'>Download Resume</button>
+          <button className='white-button resume'>履歴書</button>
+        </div>
         <img src={me} className='justin-image'></img>
       </motion.div>
     </section>

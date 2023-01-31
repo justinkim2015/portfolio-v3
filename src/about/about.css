@@ -41,10 +41,29 @@
   padding: 50px 0 30px 0;
 }
 
+.button-tray {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 /* Tablet */
 @media (min-width: 480px) {
+  .about-content {
+    align-self: center;
+    max-width: 80%;
+  }
 
+  .justin-image {
+    align-self: center;
+    width: 75%;
+  } 
+  
+  .button-tray {
+    flex-direction: row;
+    justify-content: start;
+    gap: 10px;
+  }  
 }
 
 /* Laptop */
