@@ -81,6 +81,23 @@
 
 /* Laptop */
 @media (min-width: 1024px) {
+  #skills {
+    padding: 120px 0;
+  }
+
+  .skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .skill-title {
+    text-align: center;
+  }
+
+  .frontend, .backend, .dev {
+    padding: 20px 30px;
+  }
 
 }
 

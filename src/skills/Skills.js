@@ -31,58 +31,58 @@ const Skills = () => {
         <div className='underbar'></div>
       </div>
 
-      <motion.div
-      ref={ref}
-      variants={skillsVariant}
-      transition={{ duration: 0.4}}
-      initial="hiddenLeft"
-      animate={control}         
-      className='frontend'>
-        <div className='circle'><img src={front} className='skill-icon'></img></div>
-        <h3 className='skill-title'>Front-end Development</h3>
-        <ul className='skill-list'>
-          <li className='skill'>JavaScript</li>
-          <li className='skill'>HTML5</li>
-          <li className='skill'>CSS3</li>
-          <li className='skill'>ReactJS</li>
-        </ul>
-      </motion.div>
-
-      <motion.div 
-      ref={ref}
-      variants={skillsVariant}
-      transition={{ duration: 0.4, delay: 0.1}}
-      initial="hiddenRight"
-      animate={control}         
-      className='backend'>
-        <div className='circle'><img src={back} className='skill-icon'></img></div>
-        <h3 className='skill-title'>Back-end Development</h3>
-        <ul className='skill-list'> 
-          <li className='skill'>Ruby & Ruby on Rails</li>
-          <li className='skill'>PostgreSQL</li>
-          <li className='skill'>JavaScript</li>
-          <li className='skill'>RSpec</li>
-          <li className='skill'>Minitest</li>
-        </ul>
-      </motion.div>
-
-      <motion.div 
-      ref={ref}
-      variants={skillsVariant}
-      transition={{ duration: 0.4, delay: 0.2}}
-      initial="hiddenLeft"
-      animate={control}         
-      className='dev'>
-        <div className='circle'><img src={tool} className='skill-icon'></img></div>
-        <h3 className='skill-title'>Development Tools</h3>
-        <ul className='skill-list'>
-          <li className='skill'>Git & Github</li>
-          <li className='skill'>VSCode</li>
-          <li className='skill'>Webpack</li>
-          <li className='skill'>Linux</li>
-          <li className='skill'>Dokku</li>
-        </ul>
-      </motion.div>
+      <div className='skills-container'>
+        <motion.div
+        ref={ref}
+        variants={skillsVariant}
+        transition={{ duration: 0.4}}
+        initial="hiddenLeft"
+        animate={control}
+        className='frontend'>
+          <div className='circle'><img src={front} className='skill-icon'></img></div>
+          <h3 className='skill-title'>Front-end Development</h3>
+          <ul className='skill-list'>
+            <li className='skill'>JavaScript</li>
+            <li className='skill'>HTML5</li>
+            <li className='skill'>CSS3</li>
+            <li className='skill'>ReactJS</li>
+          </ul>
+        </motion.div>
+        <motion.div
+        ref={ref}
+        variants={skillsVariant}
+        transition={{ duration: 0.4, delay: 0.1}}
+        initial="hiddenRight"
+        animate={control}
+        className='backend'>
+          <div className='circle'><img src={back} className='skill-icon'></img></div>
+          <h3 className='skill-title'>Back-end Development</h3>
+          <ul className='skill-list'>
+            <li className='skill'>Ruby & Ruby on Rails</li>
+            <li className='skill'>PostgreSQL</li>
+            <li className='skill'>JavaScript</li>
+            <li className='skill'>RSpec</li>
+            <li className='skill'>Minitest</li>
+          </ul>
+        </motion.div>
+        <motion.div
+        ref={ref}
+        variants={skillsVariant}
+        transition={{ duration: 0.4, delay: 0.2}}
+        initial="hiddenLeft"
+        animate={control}
+        className='dev'>
+          <div className='circle'><img src={tool} className='skill-icon'></img></div>
+          <h3 className='skill-title'>Development Tools</h3>
+          <ul className='skill-list'>
+            <li className='skill'>Git & Github</li>
+            <li className='skill'>VSCode</li>
+            <li className='skill'>Webpack</li>
+            <li className='skill'>Linux</li>
+            <li className='skill'>Dokku</li>
+          </ul>
+        </motion.div>
+      </div>
       
     </section>
   )
