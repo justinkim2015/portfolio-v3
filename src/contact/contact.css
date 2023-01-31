@@ -1,9 +1,10 @@
 #contact {
-  padding-top: 90px;
+  margin-top: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 20px;
+  background-color: #fafafa;
+  padding: 90px 20px 120px 20px;
 }
 
 .contact-title {
