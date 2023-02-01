@@ -14,6 +14,13 @@
   margin: 80px 0 60px 0;
 }
 
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .skills-title {
   font-size: 30px;
   font-weight: 1000;
@@ -32,10 +39,11 @@
   margin: 0 0 60px;
   width: 80%;
   background-color: #ffffff;
-  padding: 20px 0;
+  padding: 20px 60px;
 }
 
-.skill-title {
+.skill-title {    
+  text-align: center;
   font-weight: 600;
   font-size: 20px;
   margin: 0 0 8px;
