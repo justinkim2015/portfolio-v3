@@ -16,22 +16,22 @@ const Navbar = () => {
         <img src={jk} className='logo'></img>
         <img src={hamburger} className='hamburger-button' onClick={toggle}></img>
         <ul id='menu' className='hamburger-menu-inactive hamburger-menu'>
-          <li className='link'>About</li>
-          <li className='link'> Skills</li>
-          <li className='link'>Projects</li>
-          <li className='link'>Contact</li>
+          <a href="#about" className='link'>About</a>
+          <a href="#skills" className='link'>Skills</a>
+          <a href="#projects" className='link'>Projects</a>
+          <a href="#contact" className='link'>Contact</a>
         </ul>
       </div>
 
       <div className='desktop'>
         <ul id='menu' className='desktop-links'>
-          <img src={jk} className='logo'></img>
-          <div className='link-container'>
-            <li className='link'>About</li>
-            <li className='link'> Skills</li>
-            <li className='link'>Projects</li>
-            <li className='link'>Contact</li>
-          </div>
+          <a href="#"><img src={jk} className='logo'></img></a>
+          <ul className='link-container'>
+            <a href="#about" className='link'>About</a>
+            <a href="#skills" className='link'>Skills</a>
+            <a href="#projects" className='link'>Projects</a>
+            <a href="#contact" className='link'>Contact</a>
+          </ul>
         </ul>
       </div>
     </nav>
