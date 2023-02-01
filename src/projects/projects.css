@@ -32,7 +32,8 @@
   max-width: 75%;
   padding: 30px;
   border: #ebebeb 1px solid;
-  box-shadow: 1px 1px 10px #ebebeb;
+  box-shadow: 1px 1px 2px #ebebeb;
+  background-color: #fafafa;
 }
 
 .project-text {
