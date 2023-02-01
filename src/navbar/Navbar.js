@@ -16,6 +16,7 @@ const Navbar = () => {
         <a href="#"><img src={jk} className='logo'></img></a>
         <img src={hamburger} className='hamburger-button' onClick={toggle}></img>
         <ul id='menu' className='hamburger-menu-inactive hamburger-menu'>
+          <a href="#" className='link'>Home</a>
           <a href="#about" className='link'>About</a>
           <a href="#skills" className='link'>Skills</a>
           <a href="#projects" className='link'>Projects</a>
@@ -27,6 +28,7 @@ const Navbar = () => {
         <ul id='menu' className='desktop-links'>
           <a href="#"><img src={jk} className='logo'></img></a>
           <ul className='link-container'>
+            <a href="#" className='link'>Home</a>
             <a href="#about" className='link'>About</a>
             <a href="#skills" className='link'>Skills</a>
             <a href="#projects" className='link'>Projects</a>
