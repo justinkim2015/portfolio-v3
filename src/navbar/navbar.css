@@ -1,4 +1,4 @@
-#navbar, .mobile, .desktop {
+#navbar, .nav-mobile, .nav-desktop {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,6 +8,13 @@
   background-color: #FFFFFF;
   z-index: 1001;
   box-shadow: 1px 1px 2px rgb(160, 160, 160);
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .link {
@@ -23,7 +30,7 @@
   color: white;
 }
 
-.desktop {
+.nav-desktop {
   display: none;
 }
 
@@ -81,7 +88,7 @@
 
 /* Laptop */
 @media (min-width: 1024px) {
-  .mobile {
+  .nav-mobile {
     display: none;
   }
 
@@ -97,7 +104,7 @@
     margin: 10px 10px 10px 30px;
   }
 
-  .desktop {
+  .nav-desktop {
     display: flex;
   }
 

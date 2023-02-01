@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <nav id='navbar'>
-      <div className='mobile'>
+      <div className='nav-mobile'>
         <a href="#"><img src={jk} className='logo'></img></a>
         <img src={hamburger} className='hamburger-button' onClick={toggle}></img>
         <ul id='menu' className='hamburger-menu-inactive hamburger-menu'>
@@ -24,7 +24,7 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <div className='desktop'>
+      <div className='nav-desktop'>
         <ul id='menu' className='desktop-links'>
           <a href="#"><img src={jk} className='logo'></img></a>
           <ul className='link-container'>
