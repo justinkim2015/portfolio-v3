@@ -26,10 +26,12 @@ const Navbar = () => {
       <div className='desktop'>
         <ul id='menu' className='desktop-links'>
           <img src={jk} className='logo'></img>
-          <li className='link'>About</li>
-          <li className='link'> Skills</li>
-          <li className='link'>Projects</li>
-          <li className='link'>Contact</li>
+          <div className='link-container'>
+            <li className='link'>About</li>
+            <li className='link'> Skills</li>
+            <li className='link'>Projects</li>
+            <li className='link'>Contact</li>
+          </div>
         </ul>
       </div>
     </nav>
