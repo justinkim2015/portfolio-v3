@@ -66,13 +66,13 @@
 /* Laptop */
 @media (min-width: 1024px) {
   #projects {
-    margin-bottom: 120px;
+    padding: 120px 0;
   }
 
   .projects-container {
     display: grid;
-    grid-template-columns: 30vw 30vw 30vw;
-    gap: 2vw;
+    grid-template-columns: 30% 30% 30%;
+    gap: 2%;
   }
 
   .project {
@@ -91,5 +91,15 @@
 
 /* Desktop */
 @media (min-width: 1440px) {
+  .projects-title {
+    font-size: 42px;
+  }
 
+  .projects-subtitle {
+    font-size: 20px;
+  }
+  
+  .projects-container {
+    max-width: 70%;
+  }
 }
