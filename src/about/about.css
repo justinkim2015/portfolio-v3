@@ -1,13 +1,13 @@
 #about {
   display: flex;
   flex-direction: column;
-  padding-top: 80px;
+  padding-top: 120px;
 }
 
 .about-content {
   display: flex;
   flex-direction: column;
-  padding: 0 15px 30px 15px;
+  padding: 0 15px 0 15px;
 }
 
 .about-title {
@@ -24,7 +24,7 @@
 
 .about-text {
   color: #797979;
-  line-height: 1.6;
+  line-height: 1.8;
   text-align: justify;
   font-family: 'open sans';
   margin: 0 0 16px;
@@ -38,7 +38,7 @@
 }
 
 .justin-image {
-  padding: 50px 0 30px 0;
+  padding: 50px 0 0px 0;
 }
 
 .button-tray {
@@ -84,7 +84,26 @@
   } 
 }
 
+/* Font size 42px */
 /* Desktop */
 @media (min-width: 1440px) {
+  .about-content {
+    max-width: 70%;
+  }
 
+  .about-container {
+    padding: 0 40px;
+  }
+
+  .about-title {
+    font-size: 42px;
+  }
+  
+  .about-subtitle {
+    font-size: 20px;
+  }
+  
+  .about-text {
+    font-size: 18px;
+  }  
 }

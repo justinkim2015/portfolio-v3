@@ -59,5 +59,15 @@
 
 /* Desktop */
 @media (min-width: 1440px) {
-
+  .hello {
+    font-size: 28px;
+  }
+  
+  .name {
+    font-size: 50px;
+  }
+  
+  .my-desc {
+    font-size: 30px;
+  }  
 }
