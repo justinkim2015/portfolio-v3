@@ -36,11 +36,11 @@ const Projects = () => {
       transition={{ duration: 0.7}}
       initial="hidden"
       animate={control}         
-      className='animation'>
+      className='animation projects-container'>
         <div className='project'>
           <img src={karaoke} className='project-image'></img>
           <div className="project-text">
-            <h3 className='project-name'>Karaoke Song Organizer</h3>
+            <h3 className='project-name'>Karaoke Organizer</h3>
             <p className='project-desc'>This Ruby on Rails application keeps track of karaoke songs and stores. By using several Google APIs, Genius API, an IP geocoding API, and webscraping it is able to find and save song lyrics and nearby karaoke stores.</p>
           </div>
         </div>
