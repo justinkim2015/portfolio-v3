@@ -44,7 +44,7 @@ const Contact = () => {
           </p>
           <p className='contact-details'>
             <img src={linkedin} className='contact-icon'></img>
-            LinkedIn:  https://www.linkedin.com/
+            LinkedIn:  https://www.linkedin.com/in/justin-kim-809612ba/
             </p>
         </motion.div>
         
