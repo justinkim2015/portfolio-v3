@@ -24,10 +24,6 @@
 
 /* Tablet */
 @media (min-width: 480px) {
-}
-
-/* Laptop */
-@media (min-width: 1024px) {
   .mail-form {
     margin: 0;
     height: 100%;
@@ -36,13 +32,18 @@
     grid-template-rows: 20% 15% 15% 35% 20%;
     align-items: center;
   }
+}
 
+/* Laptop */
+@media (min-width: 1024px) {
   .submit {
-    max-width: 40%;
+    max-width: 50%;
   }  
 }
 
 /* Desktop */
 @media (min-width: 1440px) {
-
+  .submit {
+    max-width: 40%;
+  }  
 }

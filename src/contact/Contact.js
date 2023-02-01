@@ -25,38 +25,40 @@ const Contact = () => {
 
   return (
     <section id='contact'>
-      <motion.div 
-      ref={ref}
-      variants={contactVariant}
-      transition={{ duration: 0.5}}
-      initial="hiddenRight"
-      animate={control}         
-      className='contact-info'>
-        <h3 className='contact-title'>Contact Info</h3>
-        <p className='contact-details'>
-          <img src={location} className='contact-icon'></img>
-          Location:  Suginami, Tokyo
-        </p>
-        <p className='contact-details'>
-          <img src={email} className='contact-icon'></img>
-          Email:  justinjkim2015@gmail.com
-        </p>
-        <p className='contact-details'>
-          <img src={linkedin} className='contact-icon'></img>
-          LinkedIn:  https://www.linkedin.com/
+      <div class="contact-container">
+        <motion.div
+        ref={ref}
+        variants={contactVariant}
+        transition={{ duration: 0.5}}
+        initial="hiddenRight"
+        animate={control}
+        className='contact-info'>
+          <h3 className='contact-title'>Contact Info</h3>
+          <p className='contact-details'>
+            <img src={location} className='contact-icon'></img>
+            Location:  Suginami, Tokyo
           </p>
-      </motion.div>
-      
-      <motion.div
-      ref={ref}
-      variants={contactVariant}
-      transition={{ duration: 0.5}}
-      initial="hiddenRight"
-      animate={control}
-      className='contact-form'
-      >
-        <ContactForm />
-      </motion.div>
+          <p className='contact-details'>
+            <img src={email} className='contact-icon'></img>
+            Email:  justinjkim2015@gmail.com
+          </p>
+          <p className='contact-details'>
+            <img src={linkedin} className='contact-icon'></img>
+            LinkedIn:  https://www.linkedin.com/
+            </p>
+        </motion.div>
+        
+        <motion.div
+        ref={ref}
+        variants={contactVariant}
+        transition={{ duration: 0.5}}
+        initial="hiddenRight"
+        animate={control}
+        className='contact-form'
+        >
+          <ContactForm />
+        </motion.div>
+      </div>
     </section>
   )
 };
