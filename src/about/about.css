@@ -51,6 +51,7 @@
 @media (min-width: 480px) {
   .about-content {
     max-width: 80%;
+    align-self: center;
   }
 
   .justin-image {
