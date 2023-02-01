@@ -8,6 +8,10 @@
   src: url(../fonts/OpenSans-Regular.ttf);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #content {
   font-family: "monteserrat";
 }
