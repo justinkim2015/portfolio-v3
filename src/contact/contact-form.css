@@ -24,13 +24,22 @@
 
 /* Tablet */
 @media (min-width: 480px) {
-  .submit {
-  }
-  }
+}
 
 /* Laptop */
 @media (min-width: 1024px) {
+  .mail-form {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 20% 15% 15% 35% 20%;
+    align-items: center;
+  }
 
+  .submit {
+    max-width: 40%;
+  }  
 }
 
 /* Desktop */

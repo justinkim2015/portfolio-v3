@@ -53,6 +53,7 @@ const Contact = () => {
       transition={{ duration: 0.5}}
       initial="hiddenRight"
       animate={control}
+      className='contact-form'
       >
         <ContactForm />
       </motion.div>

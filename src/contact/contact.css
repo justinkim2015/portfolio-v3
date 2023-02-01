@@ -31,20 +31,25 @@
 @media (min-width: 480px) {
   #contact {
     display: grid;
-    grid-template-columns: 40vw 40vw;
+    grid-template-columns: 40% 40%;
     justify-items: center;
     align-items: center;
   }
 
   .contact-info {
+    height: 100%;
+    width: 100%;
     display: grid;
-    grid-template-rows: 5vh 5vh 5vh 5vh 5vh;
+    grid-template-rows: repeat(5, 20%);
+    align-items: center;
   }
 }
 
 /* Laptop */
 @media (min-width: 1024px) {
-
+  .contact-form {
+    width: 100%;
+  }
 }
 
 /* Desktop */
