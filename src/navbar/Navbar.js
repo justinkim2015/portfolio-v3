@@ -13,8 +13,8 @@ const Navbar = () => {
   return (
     <nav id='navbar'>
       <div className='nav-mobile'>
-        <a href="#"><img src={jk} className='logo'></img></a>
-        <img src={hamburger} className='hamburger-button' onClick={toggle}></img>
+        <a href="#"><img src={jk} className='logo' alt='jk logo'></img></a>
+        <img src={hamburger} className='hamburger-button' onClick={toggle} alt='hamburger button'></img>
         <ul id='menu' className='hamburger-menu-inactive hamburger-menu'>
           <a href="#" className='link'>Home</a>
           <a href="#about" className='link'>About</a>
@@ -26,7 +26,7 @@ const Navbar = () => {
 
       <div className='nav-desktop'>
         <ul id='menu' className='desktop-links'>
-          <a href="#"><img src={jk} className='logo'></img></a>
+          <a href="#"><img src={jk} className='logo' alt='JK logo'></img></a>
           <ul className='link-container'>
             <a href="#" className='link'>Home</a>
             <a href="#about" className='link'>About</a>

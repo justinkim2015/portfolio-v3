@@ -39,7 +39,7 @@ const Skills = () => {
         initial="hiddenLeft"
         animate={control}
         className='frontend'>
-          <div className='circle'><img src={front} className='skill-icon'></img></div>
+          <div className='circle'><img src={front} className='skill-icon' alt='frontend graphic'></img></div>
           <h3 className='skill-title'>Front-end Development</h3>
           <ul className='skill-list'>
             <li className='skill'>JavaScript</li>
@@ -55,7 +55,7 @@ const Skills = () => {
         initial="hiddenRight"
         animate={control}
         className='backend'>
-          <div className='circle'><img src={back} className='skill-icon'></img></div>
+          <div className='circle'><img src={back} className='skill-icon' alt='backend graphic'></img></div>
           <h3 className='skill-title'>Back-end Development</h3>
           <ul className='skill-list'>
             <li className='skill'>Ruby & Ruby on Rails</li>
@@ -72,7 +72,7 @@ const Skills = () => {
         initial="hiddenLeft"
         animate={control}
         className='dev'>
-          <div className='circle'><img src={tool} className='skill-icon'></img></div>
+          <div className='circle'><img src={tool} className='skill-icon' alt='skills graphic'></img></div>
           <h3 className='skill-title'>Development Tools</h3>
           <ul className='skill-list'>
             <li className='skill'>Git & Github</li>

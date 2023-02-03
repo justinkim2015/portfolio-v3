@@ -18,9 +18,9 @@ const Home = () => {
         </motion.div>
         
         <div className='icon-bar'>
-          <a href="https://github.com/justinkim2015" className='icon-holder'><img src={github} className='social-icon'></img></a>
+          <a href="https://github.com/justinkim2015" className='icon-holder'><img src={github} className='social-icon' alt='github logo'></img></a>
 
-          <a href="https://www.linkedin.com/in/justin-kim-809612ba/" className='icon-holder'><img src={linkedin} className='social-icon'></img></a>
+          <a href="https://www.linkedin.com/in/justin-kim-809612ba/" className='icon-holder'><img src={linkedin} className='social-icon' alt='linkedin logo'></img></a>
         </div>
       </div>
     </section>

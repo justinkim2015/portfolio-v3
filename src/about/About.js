@@ -39,7 +39,7 @@ const About = () => {
             <a href='https://justinkim2015.github.io/rirekisho/' className='white-button resume'>履歴書</a>
           </div>
         </div>
-        <img src={me} className='justin-image'></img>
+        <img src={me} className='justin-image' alt='justin in a suit'></img>
       </motion.div>
     </section>
   )
