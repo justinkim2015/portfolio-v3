@@ -1,7 +1,6 @@
 import './navbar.css'
 import hamburger from './black-hamburger.png'
 import jk from './jk.png'
-import { motion } from "framer-motion"
 
 const Navbar = () => {
   const toggle = () => {
