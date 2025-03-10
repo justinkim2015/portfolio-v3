@@ -1,7 +1,7 @@
 {
   "name": "v3-portfolio",
   "version": "0.1.0",
-  "homepage": "http://www.justinjameskim.com/",
+  "homepage": "https://justinkim2015.github.io/portfolio-v3/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
