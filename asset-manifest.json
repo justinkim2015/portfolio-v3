@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio-v3/static/css/main.6923a221.css",
+    "main.js": "/portfolio-v3/static/js/main.fcbd43e7.js",
+    "static/media/sunrise-dark.png": "/portfolio-v3/static/media/sunrise-dark.74c229eb5ee33ea06014.png",
+    "static/media/weather.png": "/portfolio-v3/static/media/weather.9a888038f97577b698dc.png",
+    "static/media/me-nobackground.png": "/portfolio-v3/static/media/me-nobackground.d257d1a7add3a48d8c28.png",
+    "static/media/Montserrat-Regular.ttf": "/portfolio-v3/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
+    "static/media/OpenSans-Regular.ttf": "/portfolio-v3/static/media/OpenSans-Regular.77c09223204154ae8d43.ttf",
+    "static/media/karaoke.png": "/portfolio-v3/static/media/karaoke.d4453e052fdf8092805b.png",
+    "static/media/railsbook.png": "/portfolio-v3/static/media/railsbook.21fd1b51b2135a4fc0ed.png",
+    "static/media/tool.png": "/portfolio-v3/static/media/tool.bd733c7e56eabe31a217.png",
+    "static/media/main-logo-white.png": "/portfolio-v3/static/media/main-logo-white.5bcc19af47f340879942.png",
+    "static/media/linkedin-white.png": "/portfolio-v3/static/media/linkedin-white.a00936dcfe76a678c975.png",
+    "static/media/location.png": "/portfolio-v3/static/media/location.a405c2668c55f74c09be.png",
+    "static/media/back.png": "/portfolio-v3/static/media/back.b2c514376e752719d541.png",
+    "static/media/front.png": "/portfolio-v3/static/media/front.a6917fccf02e67a9e18f.png",
+    "static/media/chess.png": "/portfolio-v3/static/media/chess.470d253e63e11d1f8a6f.png",
+    "index.html": "/portfolio-v3/index.html",
+    "main.6923a221.css.map": "/portfolio-v3/static/css/main.6923a221.css.map",
+    "main.fcbd43e7.js.map": "/portfolio-v3/static/js/main.fcbd43e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6923a221.css",
+    "static/js/main.fcbd43e7.js"
+  ]
+}
