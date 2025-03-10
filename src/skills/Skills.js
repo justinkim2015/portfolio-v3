@@ -42,7 +42,7 @@ const Skills = () => {
           <div className='circle'><img src={front} className='skill-icon' alt='frontend graphic'></img></div>
           <h3 className='skill-title'>Front-end Development</h3>
           <ul className='skill-list'>
-            <li className='skill'>JavaScript</li>
+            <li className='skill'>JavaScript/TypeScript</li>
             <li className='skill'>HTML5</li>
             <li className='skill'>CSS3</li>
             <li className='skill'>ReactJS</li>
@@ -58,11 +58,11 @@ const Skills = () => {
           <div className='circle'><img src={back} className='skill-icon' alt='backend graphic'></img></div>
           <h3 className='skill-title'>Back-end Development</h3>
           <ul className='skill-list'>
+            <li className='skill'>Kotlin</li>
+            <li className='skill'>Python3</li>
             <li className='skill'>Ruby & Ruby on Rails</li>
-            <li className='skill'>PostgreSQL</li>
-            <li className='skill'>JavaScript</li>
-            <li className='skill'>RSpec</li>
-            <li className='skill'>Minitest</li>
+            <li className='skill'>PostgreSQL/MySQL</li>
+            <li className='skill'>JUnit</li>
           </ul>
         </motion.div>
         <motion.div
@@ -73,13 +73,14 @@ const Skills = () => {
         animate={control}
         className='dev'>
           <div className='circle'><img src={tool} className='skill-icon' alt='skills graphic'></img></div>
-          <h3 className='skill-title'>Development Tools</h3>
+          <h3 className='skill-title'>Amazon Web Services(AWS)</h3>
           <ul className='skill-list'>
-            <li className='skill'>Git & Github</li>
-            <li className='skill'>VSCode</li>
-            <li className='skill'>Webpack</li>
-            <li className='skill'>Linux</li>
-            <li className='skill'>Dokku</li>
+            <li className='skill'>EC2</li>
+            <li className='skill'>S3</li>
+            <li className='skill'>RDS</li>
+            <li className='skill'>ECS</li>
+            <li className='skill'>CloudFormation</li>
+            <li className='skill'>AWS SDK/CDK</li>
           </ul>
         </motion.div>
       </div>
