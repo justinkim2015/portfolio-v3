@@ -7,7 +7,11 @@ const Project = ({ image, alt, title, live, git }) => {
         <a href={live}><img src={image} alt={alt} className='project-image'></img></a>
         <div className="project-text">
           <h3 className='project-name'>{title}</h3>
-          <a href={git}><img src={github} className='project-icon' alt="github logo"></img></a>
+          {git && (
+            <a href={git}>
+              <img src={github} className='project-icon' alt="github logo" />
+            </a>
+          )}
         </div>
       </div>
     </div>
