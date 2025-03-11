@@ -14,7 +14,7 @@ const Home = () => {
         >
           <h2 className='hello'>Hi there,</h2>
           <p className='name'>I'm Justin Kim.</p>
-          <p className='my-desc'>Full-stack web developer</p>
+          <p className='my-desc'>Web developer</p>
         </motion.div>
         
         <div className='icon-bar'>

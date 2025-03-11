@@ -30,9 +30,9 @@ const About = () => {
       >
         <div className='about-container'>
           <h2 className='about-title'>About me</h2>
-          <h6 className='about-subtitle'>Full-stack Web Developer</h6>
+          <h6 className='about-subtitle'>Web Developer</h6>
           <p className='about-text'>
-            Full-stack developer living in Tokyo who likes to make stuff with his computer. Currently, I am focused on building applications using Ruby on Rails as a back-end and ReactJS for the front. I'm fluent in English and I can speak business level Japanese. Please check out some of my projects and get in touch!
+            Web developer living in Tokyo who likes to make stuff with his computer. Right now I'm working on the backend with Kotlin and Spring Boot. I'm fluent in English and I can speak business level Japanese. Let's get in touch!
           </p>
           <div class="button-tray">
             <a href='https://justinkim2015.github.io/resume/' className='blue-button resume'>Resume</a>

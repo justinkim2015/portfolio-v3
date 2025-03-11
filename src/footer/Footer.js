@@ -12,7 +12,7 @@ const Footer = () => {
 
         <a href="https://www.linkedin.com/in/justin-kim-809612ba/" className='icon-holder'><img src={linkedin} className='social-icon' alt='linkedin logo'></img></a>
       </div>
-      <p className='inspired-by'><i>Inspiration from blazethemes.com</i></p>
+      <p className='inspired-by'><i>My socials</i></p>
       <p className='made-by'>Created by Justin Kim, 2023</p>
     </section>
   )
